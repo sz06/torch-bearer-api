@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "slide",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}

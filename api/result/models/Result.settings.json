@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "result",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "studentName": {
+      "type": "string"
+    },
+    "school": {
+      "model": "school"
+    },
+    "quiz": {
+      "model": "quiz"
+    },
+    "answers": {
+      "type": "json"
+    }
+  }
+}
